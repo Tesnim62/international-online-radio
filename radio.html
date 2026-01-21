@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>International Online Radio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+
+<h1>🌍 International Online Radio</h1>
+<p>Live Radio From Around the World</p>
+
+<button onclick="toggleTheme()">🌙 / ☀️</button>
+
+<input id="search" placeholder="Search station..." onkeyup="filterStations()">
+
+<select id="countryFilter" onchange="filterStations()">
+  <option value="all">All Countries</option>
+  <option value="International">International</option>
+  <option value="USA">USA</option>
+  <option value="Europe">Europe</option>
+</select>
+
+<div id="stations"></div>
+
+<audio id="player" controls></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
