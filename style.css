@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 15px;
+}
+
+.dark { background:#0f172a; color:white; }
+.light { background:#f8fafc; color:black; }
+
+.station {
+  padding: 12px;
+  margin: 10px 0;
+  background: #1e293b;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.station:hover {
+  background: #334155;
+}
